@@ -137,6 +137,12 @@ header {
     font-family: 'Poppins', sans-serif;
 }
 
+#input:focus {
+
+    outline: none;
+    box-shadow: 0 0 5px #719ECE;
+}
+
 #input::placeholder {
     color: #cac7c7;
 }
