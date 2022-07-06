@@ -265,10 +265,10 @@ header {
 }
 
 .iframe-style {
-    width: 335;
-    height: 188;
-    margin-left: 5%;
-
+    width: 400px;
+    height: 200px;
+    margin-left: 2%;
+    margin-right: 2%;
 
 }
 
