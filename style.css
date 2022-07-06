@@ -38,11 +38,11 @@ p {
     background-color: orangered;
     border: none;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 5px;
     color: white;
     font-size: 18px;
     font-weight: 700;
-    box-shadow: 0 0 1px 1px rgb(237, 98, 98);
+    box-shadow: 0 0 0.7px 0.5px rgb(237, 98, 98);
 }
 
 .container-style {
@@ -216,9 +216,68 @@ header {
 
 /* donate plan section ended */
 
+/* get my updates section started */
+
+#get-my-update {
+    margin-bottom: 110px;
+}
+
+#get-my-update p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.form-style {
+    background-color: #FFF4D6;
+    height: 200px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
 
 
 
+.email {
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 2%;
+    width: 35%;
+    background-color: #D9D9D9;
+}
+
+.email:focus {
+
+    outline: none;
+}
+
+.email::placeholder {
+    font-weight: 600;
+    font-size: 15px;
+    color: #b9b4b4;
+}
+
+.subscribe {
+    background-color: #FF5959;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0 0 0.7px 0.5px rgb(237, 98, 98);
+    width: 130px;
+}
+
+.email-subscribe-height {
+    height: 45px;
+}
+
+/* get my updates section ended */
 /* footer started */
 
 footer {
