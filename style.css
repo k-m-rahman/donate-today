@@ -25,6 +25,10 @@ h3 {
     font-size: 25px;
 }
 
+h4 {
+    font-size: 20px;
+}
+
 p {
     font-family: 'Poppins', sans-serif;
     color: rgb(128, 125, 125);
@@ -41,6 +45,21 @@ p {
     box-shadow: 0 0 1px 1px rgb(237, 98, 98);
 }
 
+.container-style {
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-style p {
+    width: 50%;
+    font-size: 14px;
+}
+
+/* universal things ended */
 
 /* Header section started */
 
@@ -81,19 +100,8 @@ header {
 
 /* donate today section started */
 
-.donate-today {
-    padding: 2%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+.donate-today {}
 
-.donate-today p {
-    width: 50%;
-    font-size: 14px;
-}
 
 #tk-amount {
     display: flex;
@@ -148,3 +156,54 @@ header {
 }
 
 /* donate today section ended */
+
+/* donate plan section started */
+
+#our-donate-plan {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#donate-plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2%;
+    width: 80%;
+}
+
+.plan-common-style {
+    width: 28%;
+    height: 250px;
+    padding: 2%;
+    padding-top: 3%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.plan-common-style p {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.plan-common-style img {
+    width: 25%;
+    height: 22%;
+}
+
+#food {
+    background-color: #4F9DA61A;
+}
+
+#shelter {
+    background-color: #FF59591A;
+}
+
+#education {
+    background-color: #FFF4D6;
+}
+
+/* donate plan section ended */
