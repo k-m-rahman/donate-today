@@ -207,3 +207,27 @@ header {
 }
 
 /* donate plan section ended */
+
+
+
+
+/* footer started */
+
+footer {
+    text-align: center;
+    background-color: #070c0f;
+    height: 120px;
+    padding-top: 2%;
+}
+
+footer h2 {
+    color: tomato;
+    font-size: 30px;
+    font-weight: 380;
+    font-family: 'Lobster', cursive;
+}
+
+footer p {
+    color: whitesmoke;
+    font-size: 12px;
+}
